@@ -1,0 +1,138 @@
+#Nome{
+    text-align: center;
+    font-size: large;
+    font-family: Verdana;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);    
+}
+.curso{
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+
+.foto-perfil {
+    width: 150px;              
+    height: 150px;             
+    border-radius: 50%;       
+    overflow: hidden;         
+    border: 4px solid #fff;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;         
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.data-hora {
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+#data-hora {
+    margin: 0;
+}
+
+
+body {
+	font-family: "Verdana",serif;
+	background-image: url("https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+}
+
+.Portefolio{
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+
+}
+
+.menu li a:hover {
+    background-color: #111;
+    
+}
+
+
+#redesSociais{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+    display: flex;
+    gap: 10px;
+
+}
+
+.descrição_conteudo{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 50%;
+}

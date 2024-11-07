@@ -1,0 +1,116 @@
+ body {
+	font-family: "Verdana",serif;
+	background-image: url("https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg");
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+
+}
+
+.top{
+    text-align: center;
+    font-size: large;
+    border: #111;
+    color: #f8f9fa;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.Portefolio{
+        font-size: 24px;
+        font-weight: bold;
+        color: #666;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+.endereco {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.contact-button {
+    background-color: #010b15;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #666;
+}
+.mapa{
+    text-align: center;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+

@@ -1,0 +1,100 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url("https://img.freepik.com/free-vector/abstract-black-lines-geometric-background_677411-2748.jpg");
+}
+
+.Portefolio{
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.menu li a:hover {
+    background-color: #111;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titulo{
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.endereco{
+    text-align: center;
+    display: block;
+    list-style-type: none;
+}
+
+h2 {
+    color: #333;
+}
+
+.experiencia, .educacao, .compDigitais, .passatempo {
+    margin-bottom: 15px;
+}
+
+.linguas{
+    margin-top: 15px;
+    
+}
+
+.imprimir{
+    color: #666;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: right;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
